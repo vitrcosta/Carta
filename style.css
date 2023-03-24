@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'RetroSignature';
+    src: url('fonts/RetroSignature.eot');
+    src: url('fonts/RetroSignature.eot') format('embedded-opentype'),
+         url('fonts/RetroSignature.woff2') format('woff2'),
+         url('fonts/RetroSignature.woff') format('woff'),
+         url('fonts/RetroSignature.ttf') format('truetype'),
+         url('fonts/RetroSignature.svg#RetroSignature') format('svg');
+}
+@font-face {
+    font-family: 'PhotographSignature';
+    src: url('fonts/PhotographSignature.eot');
+    src: url('fonts/PhotographSignature.eot') format('embedded-opentype'),
+         url('fonts/PhotographSignature.woff2') format('woff2'),
+         url('fonts/PhotographSignature.woff') format('woff'),
+         url('fonts/PhotographSignature.ttf') format('truetype'),
+         url('fonts/PhotographSignature.svg#PhotographSignature') format('svg');
+}
+
+.carta {
+    background-image: url(https://3.bp.blogspot.com/-oua1zrgp1Y0/WMRPGb1mT5I/AAAAAAABhyw/iWvzfFTwQXMkjVFv7kniDJseNSxvvIojQCLcB/s1600/PNG%2B-%2Bpapeis%2B3.png);
+    background-size: cover;
+    width: 850px;
+    height: 650px;
+    padding: 70px 80px;
+    font-family: PhotographSignature;
+    margin: 0 auto;
+}
+.saudacao {
+    float: left;
+    margin-left: 80px;
+}
+.assinatura {
+    float: left;
+    margin-left: 80px;
+    font-family: RetroSignature !important;
+}
+.carta p {
+    font-size: 40px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.estrofe {
+    width: fit-content;
+    margin: 20px auto;
+}
